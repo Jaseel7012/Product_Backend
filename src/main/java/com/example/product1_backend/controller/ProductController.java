@@ -18,6 +18,11 @@ public String ViewPage(){
 public  String AddProduct(){
         return  "Add product page";
 }
+
+@PostMapping("/delete")
+public String DeleteProduct(){
+        return  "delete product page";
+    }
 }
 
 
