@@ -27,6 +27,11 @@ public String DeleteProduct(){
     public String EditProduct(){
         return  "edit page";
     }
+@PostMapping("/search")
+public  String SearchProduct(){
+        return  "search Product";
+}
+
 }
 
 
