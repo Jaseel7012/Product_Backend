@@ -23,6 +23,10 @@ public  String AddProduct(){
 public String DeleteProduct(){
         return  "delete product page";
     }
+    @PostMapping("/edit")
+    public String EditProduct(){
+        return  "edit page";
+    }
 }
 
 
