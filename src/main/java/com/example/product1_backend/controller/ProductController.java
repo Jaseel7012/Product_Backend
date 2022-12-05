@@ -9,4 +9,10 @@ public class ProductController {
 public String HomePage(){
     return  "Product app";
 }
+@GetMapping("/view")
+public String ViewPage(){
+        return "view page";
 }
+}
+
+
